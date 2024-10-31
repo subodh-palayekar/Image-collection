@@ -126,13 +126,13 @@ const HomeScreen = () => {
         <Pressable onPress={handleScrollUp}>
           <Text style={styles.title}>Pixels</Text>
         </Pressable>
-        <Pressable>
+        {/* <Pressable>
           <FontAwesome6
             name="bars-staggered"
             size={22}
             color={theme.colors.neutral(0.9)}
           />
-        </Pressable>
+        </Pressable> */}
       </View>
 
       <ScrollView
